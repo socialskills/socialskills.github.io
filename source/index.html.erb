@@ -1,0 +1,36 @@
+<section class="main-content">
+
+    <div class="container">
+
+        <div class="sixteen columns">
+
+            <% page_articles.each_with_index do |article, i| %>
+            <article class="main-content__post post-video scrollme">
+
+                <!-- Post Video -->
+               <div class="yt_container" data-pe-videoid="<%= article.data.youtube_id %>"></div>
+
+                <!-- Post header -->
+                <header class="post__header">
+                    <time class="post__time"><%= article.date.strftime('%B %d, %Y') %></time>
+                    <h2 class="post__title"><%= link_to article.title, article %></h2>
+                </header>
+
+                <div class="post__content">
+                    <p class="post__excerpt"> <%= article.data.intro %></p>
+                </div>
+
+                <div class="post__button">
+                    <% link_to(article, { :class => 'btn' }) do %>watch<% end %>
+                </div>
+
+            </article>
+            <% end %>
+
+
+        </div>
+
+    </div>
+    <!-- / Container -->
+
+</section>

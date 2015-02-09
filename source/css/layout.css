@@ -433,7 +433,10 @@
 
 	.main-header__top {
 		background: #202020;
-		height: 50px;
+		height: 60px;
+	}
+	.main-header__top a {
+		color: #fff;
 	}
 
 	.main-header__search {
@@ -452,7 +455,7 @@
 		font-family: 'Merriweather', serif;
 		font-size: 0.85em;
 		min-width: 300px;
-		height: 50px;
+		height: 60px;
 		padding: 0 15px;
 		margin-left: 10px;
 	}
@@ -514,7 +517,7 @@
 	}
 	.main-header__social-links li a {
 		color: #fff;
-		padding: 15px 8px;
+		padding: 18px 8px;
 		display: block;
 	}
 	.main-header__social-links li a:hover {
@@ -607,9 +610,6 @@
 		float: left;
 		display: inline-block;
 
-		box-shadow: inset 0 -1px 0 0 #EEE;
-		-webkit-box-shadow: inset 0 -1px 0 0 #EEE;
-
 		transition: background-color 250ms ease-in-out;
 		-webkit-transition: background-color 250ms ease-in-out; 
 	}
@@ -617,7 +617,6 @@
 	.navigation__list li a {
 		display: block;
 		padding: 20px;
-		color: #000;
 		font-size: 0.9em;
 
 		transform: translateY(0px);
@@ -1088,7 +1087,7 @@
 	=================================== */
 
 	.main-content__post {
-		margin-top: 150px;
+		margin-bottom: 100px;
 	}
 
 	.main-content__post img {
@@ -1200,7 +1199,7 @@
 	}
 
 	.post__button a.btn {
-		width: 30px;
+		width: 50px;
 		margin: 0 auto;
 		display: block;
 	}
@@ -1633,7 +1632,7 @@
 		margin: 0 auto 2.4em;
 	}
 
-	.single-post__content p {
+	.single-post__content p, .single-post__content h2, .single-post__content h3 {
 		margin: 0 60px 30px;
 	}
 
@@ -1663,17 +1662,17 @@
 		margin: 65px auto;
 	}
 
-	ul.checklist {
+	ul.checklist, .single-post__content ul {
 		margin: 0 60px 30px;
 		padding: 0;
 	}
 
-	ul.checklist li {
+	ul.checklist li, .single-post__content ul li {
 		display: block;
 		margin: 7px 0;
 	}
 
-	ul.checklist li:before {
+	ul.checklist li:before, .single-post__content ul li:before {
 		content: '\f058';
 		display: inline-block;
 		font-family: "FontAwesome";
@@ -2742,7 +2741,7 @@
 		}
 
 		.main-content__post {
-			margin-top: 40px;
+			margin-top: 400px;
 		}
 
 		.post__meta {

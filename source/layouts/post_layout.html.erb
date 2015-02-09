@@ -1,0 +1,31 @@
+<% wrap_layout :layout do %>
+<section class="post-content">
+
+    <div class="container">
+
+        <div class="sixteen columns">
+
+            <!-- Post -->
+            <article class="post-content__post">
+
+                <!-- Post header -->
+                <header class="post__header">
+                    <time class="post__time"><%= current_page.date.strftime('%B %d, %Y') %></time>
+                    <p class="post__meta">Posted by <%= current_page.data.author %></p>
+                    <a href="#"><h1 class="post__title"><%= current_article.title %></h1></a>
+                </header>
+
+                <div class="single-post__content">
+                    <%= yield %>
+                </div>
+
+            </article>
+            <!-- / Post -->
+
+        </div>
+
+    </div>
+    <!-- / Container -->
+
+</section>
+<% end %>
