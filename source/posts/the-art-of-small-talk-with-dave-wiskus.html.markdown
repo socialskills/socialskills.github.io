@@ -15,7 +15,8 @@ If you enjoyed this episode, let Dave know by clicking on the link below and sen
 <a href="https://twitter.com/dwiskus">Click here to thank Dave on Twitter!</a>
 
 ##Resources:
-
+- [Listen/Download on SoundCloud](https://soundcloud.com/socialskillsfm/the-art-of-small-talk-dave-wiskus)
+- [Slides](https://speakerdeck.com/socialskillsfm/the-art-of-small-talk-with-dave-wiskus)
 - [Better Elevation Youtube Channel](https://www.youtube.com/channel/UCkeM0swJ50XdGFCBi8gFbaA)
 - [Better Elevation](http://betterelevation.com)
 - [Unprofessional podcast](http://unprofesh.com)
